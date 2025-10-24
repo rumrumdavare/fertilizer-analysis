@@ -25,16 +25,19 @@ An interactive web application that analyzes global fertilizer consumption patte
 ```bash
 git clone https://github.com/rumrumdavare/fertilizer-analysis.git
 cd fertilizer-analysis
+```
 
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+```
 
 3. **Run the application**
 ```bash
 streamlit run app.py
+```
 
-##📁 Project Structure
+## 📁 Project Structure
 
 fertilizer-analysis/
 ├── fertilizer_app.py          # Main Streamlit application
@@ -42,35 +45,35 @@ fertilizer-analysis/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 
-##🗃️ Data Sources
+## 🗃️ Data Sources
 
 - **World Bank API** - Fertilizer consumption indicators (AG.CON.FERT.ZS)
 - **Country metadata** - Regional classifications and ISO codes
 
-##🎯 Usage
+## 🎯 Usage
 
 1. Select analysis type from the sidebar
 2. Filter by year range and region
 3. Interact with visualizations - hover, click, zoom
 4. Download insights for further analysis
 
-##📈 Analysis Types
+## 📈 Analysis Types
 
 1. **Overview Dashboard**: Top consumers and key metrics
 2. **World Map**: Global consumption patterns over time
 3. **Country Trends**: Compare multiple countries' fertilizer usage
 4. **Change Analysis**: Identify emerging trends and reductions
 
-##🔧 Technical Details
+## 🔧 Technical Details
  - **Backend**: Python, DuckDB, SQL, Pandas
  - **Frontend**: Streamlit, Plotly, Matplotlib
  - **Data**: World Bank API, Real-time ETL
  - **Deployment**: Streamlit Cloud
 
-##🤝 Contributing
+## 🤝 Contributing
 Feel free to fork this project and submit pull requests for any improvements!
 
-##📄 License
+## 📄 License
 This project is open source and available under the MIT License.
 
 Built with ❤️ using Streamlit, SQL, and World Bank data
