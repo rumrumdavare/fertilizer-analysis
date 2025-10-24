@@ -74,6 +74,6 @@ fertilizer-analysis/
 Feel free to fork this project and submit pull requests for any improvements!
 
 ## 📄 License
-This project is open source and available under the MIT License.
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) license.
 
 Built with ❤️ using Streamlit, SQL, and World Bank data
