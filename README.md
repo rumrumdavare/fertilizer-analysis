@@ -39,7 +39,8 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-```fertilizer-analysis/
+```
+fertilizer-analysis/
 ├── app.py                        # Streamlit application
 ├── fertilizer_sql_analysis.py    # ETL pipeline & analysis functions
 ├── requirements.txt           
